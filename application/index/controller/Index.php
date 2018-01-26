@@ -6,8 +6,9 @@ class Index
 {
     public function index()
     {
-        $sms = new SmsDemo();
+    	echo 11;
+        /*$sms = new SmsDemo();
         $response = SmsDemo::sendSms();
-        dump($response);exit;
+        dump($response);exit;*/
     }
 }
